@@ -9,6 +9,7 @@
     height: 504px;
     position: relative;
     border-radius: 0px;
+    border: 0.87px solid black;
 }
 #chooser{
     display: block;
