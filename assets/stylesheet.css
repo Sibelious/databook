@@ -89,3 +89,10 @@ background-size: contain;
     font-family: 'Cabin';
     color: white;
 }
+#displayBox{
+    width: 524px;
+    height: 468px;
+    background-image: url('img/display.png');
+    background-size: contain;
+    margin-right: 0px;
+}
