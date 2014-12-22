@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Cabin);
 #top{
 	display: block;
     background: url("img/bg-intro.original.jpg") repeat scroll center center #FFF;
@@ -66,4 +67,25 @@ margin-right: auto;
 background-repeat: no-repeat;
 background-image: url('img/databook.png');
 background-size: contain;
+}
+#intro{
+    width: 960px;
+    height: 385px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#introText{
+    height: 385px;
+    width: 320px;
+    margin-left: 0px;
+}
+#introText h1{
+    font-family: 'Cabin';
+    font-size: 92px;
+    color: white;
+}
+#introText p{
+    font-size: 20px;
+    font-family: 'Cabin';
+    color: white;
 }
