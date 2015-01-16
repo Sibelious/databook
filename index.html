@@ -2473,8 +2473,8 @@
                     
                     <div id="newsletter_form">
                         <form action="php/send.php" method="post" class="subscribe-form" id="subscribe-form">
-                            <input type="email" name="email" class="subscribe-input" placeholder="Enter your e-mail address..."  required>
-                                <button type="submit" class="subscribe-submit" id="submail">Notify Me</button>
+                            <input type="email" name="email" id="inMail" class="subscribe-input" placeholder="Enter your e-mail address..."  required>
+                                <button type="submit" class="subscribe-submit" id="submail" onclick="javascript:window.location='mailto:?subject=Message from '+document.getElementById('inMail').value">Notify Me</button>
                         </form>
                     </div>
                     <div id="preview"></div>
